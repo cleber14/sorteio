@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --color-image: rgb(0, 0, 0);
+}
+
+body {
+    background: pink;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    margin: 20px;
+}
+
+button {
+    margin: 20px;
+}
+
+article {
+    width: 500px;
+    padding: 50px;
+    color: var(--color-image);
+}
